@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Dad]" parallel="classes">
+  <test name="Mom(failed)" parallel="classes">
+    <classes>
+      <class name="com.virphy.TestNG.Browser">
+        <methods>
+          <include name="Sandeep"/>
+          <include name="logIn"/>
+          <include name="logOut"/>
+        </methods>
+      </class> <!-- com.virphy.TestNG.Browser -->
+    </classes>
+  </test> <!-- Mom(failed) -->
+</suite> <!-- Failed suite [Dad] -->

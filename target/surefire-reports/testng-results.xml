@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31" started-at="2017-10-05T07:55:20Z" finished-at="2017-10-05T07:55:20Z">
+    <groups>
+    </groups>
+    <test name="BeforeSuite" duration-ms="31" started-at="2017-10-05T07:55:20Z" finished-at="2017-10-05T07:55:20Z">
+      <class name="com.virphy.TestNG.BeforeSuite1">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.virphy.TestNG.BeforeSuite1@327471b5]" name="beforeSuite" is-config="true" duration-ms="16" started-at="2017-10-05T13:25:20Z" finished-at="2017-10-05T13:25:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="login2()[pri:0, instance:com.virphy.TestNG.BeforeSuite1@327471b5]" name="login2" duration-ms="0" started-at="2017-10-05T13:25:20Z" finished-at="2017-10-05T13:25:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login2 -->
+        <test-method status="PASS" signature="login3()[pri:0, instance:com.virphy.TestNG.BeforeSuite1@327471b5]" name="login3" duration-ms="0" started-at="2017-10-05T13:25:20Z" finished-at="2017-10-05T13:25:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login3 -->
+        <test-method status="PASS" signature="login1()[pri:0, instance:com.virphy.TestNG.BeforeSuite1@327471b5]" name="login1" duration-ms="0" started-at="2017-10-05T13:25:20Z" finished-at="2017-10-05T13:25:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.virphy.TestNG.BeforeSuite1@327471b5]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-10-05T13:25:21Z" finished-at="2017-10-05T13:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.virphy.TestNG.BeforeSuite1 -->
+    </test> <!-- BeforeSuite -->
+  </suite> <!-- Suite -->
+</testng-results>

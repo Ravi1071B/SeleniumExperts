@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43731" started-at="2017-10-04T09:11:47Z" finished-at="2017-10-04T09:12:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43731" started-at="2017-10-04T09:11:47Z" finished-at="2017-10-04T09:12:31Z">
+      <class name="SeleniumPrograms.SeleniumTest">
+        <test-method status="PASS" signature="openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="openSeleniumRAVI" duration-ms="28578" started-at="2017-10-04T14:41:47Z" data-provider="hardCodedBrowsers" finished-at="2017-10-04T14:42:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[53.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 8.1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void SeleniumPrograms.SeleniumTest.openSeleniumRAVI(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.io.IOException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSeleniumRAVI -->
+        <test-method status="PASS" signature="openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="openSeleniumRAVI" duration-ms="14752" started-at="2017-10-04T14:41:47Z" data-provider="hardCodedBrowsers" finished-at="2017-10-04T14:42:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X 10.11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void SeleniumPrograms.SeleniumTest.openSeleniumRAVI(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.io.IOException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSeleniumRAVI -->
+        <test-method status="PASS" signature="openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="openSeleniumRAVI" duration-ms="29573" started-at="2017-10-04T14:41:47Z" data-provider="hardCodedBrowsers" finished-at="2017-10-04T14:42:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[54.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X 10.10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void SeleniumPrograms.SeleniumTest.openSeleniumRAVI(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.io.IOException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSeleniumRAVI -->
+        <test-method status="PASS" signature="openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="openSeleniumRAVI" duration-ms="39948" started-at="2017-10-04T14:41:47Z" data-provider="hardCodedBrowsers" finished-at="2017-10-04T14:42:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[49.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void SeleniumPrograms.SeleniumTest.openSeleniumRAVI(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.io.IOException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSeleniumRAVI -->
+        <test-method status="PASS" signature="openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="openSeleniumRAVI" duration-ms="43049" started-at="2017-10-04T14:41:47Z" data-provider="hardCodedBrowsers" finished-at="2017-10-04T14:42:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void SeleniumPrograms.SeleniumTest.openSeleniumRAVI(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.io.IOException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSeleniumRAVI -->
+        <test-method status="PASS" signature="openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="openSeleniumRAVI" duration-ms="18090" started-at="2017-10-04T14:41:47Z" data-provider="hardCodedBrowsers" finished-at="2017-10-04T14:42:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void SeleniumPrograms.SeleniumTest.openSeleniumRAVI(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.io.IOException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSeleniumRAVI -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="tearDown" is-config="true" duration-ms="885" started-at="2017-10-04T14:42:02Z" finished-at="2017-10-04T14:42:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openSeleniumRAVI status=SUCCESS method=SeleniumTest.openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="tearDown" is-config="true" duration-ms="658" started-at="2017-10-04T14:42:05Z" finished-at="2017-10-04T14:42:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openSeleniumRAVI status=SUCCESS method=SeleniumTest.openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="tearDown" is-config="true" duration-ms="857" started-at="2017-10-04T14:42:16Z" finished-at="2017-10-04T14:42:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openSeleniumRAVI status=SUCCESS method=SeleniumTest.openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="tearDown" is-config="true" duration-ms="761" started-at="2017-10-04T14:42:17Z" finished-at="2017-10-04T14:42:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openSeleniumRAVI status=SUCCESS method=SeleniumTest.openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="tearDown" is-config="true" duration-ms="1049" started-at="2017-10-04T14:42:27Z" finished-at="2017-10-04T14:42:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openSeleniumRAVI status=SUCCESS method=SeleniumTest.openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="tearDown" is-config="true" duration-ms="630" started-at="2017-10-04T14:42:30Z" finished-at="2017-10-04T14:42:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openSeleniumRAVI status=SUCCESS method=SeleniumTest.openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumPrograms.SeleniumTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
