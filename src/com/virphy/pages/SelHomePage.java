@@ -14,10 +14,10 @@ public class SelHomePage {
 		
 	By searchselenium                 = By.xpath("//*[@id='q']");
 	By GO                             = By.xpath("//input[@value='Go']");
-	By ProjectTap                     = By.xpath("//a[@id=\"menu_projects\"]/a");
-    By Download                       = By.xpath("//a[@id=\"menu_download\"]/a");
-    By Documentataion                 = By.xpath("//a[@id=\"menu_download\"]/a");
-    By Support                        = By.xpath("//a[@id=\"menu_support\"]/a");
+	By ProjectTap                     = By.xpath("//a[@id='menu_projects']/a");
+    By Download                       = By.xpath("//a[@id='menu_download']/a");
+    By Documentataion                 = By.xpath("//a[@id='menu_download']/a");
+    By Support                        = By.xpath("//a[@id='menu_support']/a");
     By AboutTab			              = By.xpath("//li[@id='menu_about']/a");
 	
     
