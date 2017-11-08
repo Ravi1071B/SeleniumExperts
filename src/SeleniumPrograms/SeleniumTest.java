@@ -27,7 +27,7 @@ public class SeleniumTest extends BrowserHooks {
 	
 	//Opening the selenium homepage URL
 		
-	  driver.get(PropFileHandler .fetchKey(AutoConstant.URL.URL) );
+	  driver.get(PropFileHandler .fetchKey(AutoConstant.URL.URL));
 	  
 	//Type hyderabad in the search selenium text box and click GO
 	  objSel.searchselenium("Hyderabad");

@@ -23,9 +23,9 @@ public class BrowserHooks  {
 
     public String buildTag = System.getenv("BUILD_TAG");
 
-    public String username = "sandeep98";
+    public String username = "naveend72599";
 
-    public String accesskey = "0d52bde8-f602-4e95-ad15-814f19867acb";
+    public String accesskey = "0e52b41e-aac5-417e-bae8-67d4f59e8ad2";
 
     /**
      * ThreadLocal variable which contains the  {@link WebDriver} instance which is used to perform browser interactions with.
@@ -59,8 +59,7 @@ public class BrowserHooks  {
         return new Object[][]{
                 new Object[]{"firefox", "49.0", "Windows 10"},
                 new Object[]{"firefox", "latest-1", "Windows 7"},
-                new Object[]{"firefox", "53.0", "Windows 10"},
-                new Object[]{"firefox", "51.0", "Windows 10"},
+                
                 
         };
         

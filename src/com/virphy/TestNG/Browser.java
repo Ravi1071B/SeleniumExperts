@@ -17,7 +17,7 @@ public class Browser extends BaseClass{
   }
   @Test
   public void Giddu() {
-	  System.out.println("Program had to be excuted");
+	  System.out.println("Program has to be excuted");
   }
   @Test
   public void Mani() {

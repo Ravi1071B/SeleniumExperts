@@ -3,12 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="SeleniumPrograms.SeleniumTest">
+      <class name="com.virphy.TestNG.Beforemethod">
         <methods>
-          <include name="tearDown"/>
-          <include name="openSeleniumRAVI" invocation-numbers="4 1 3 2 0 5"/>
+          <include name="doaction"/>
+          <include name="afterMethod"/>
+          <include name="login"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- SeleniumPrograms.SeleniumTest -->
+      </class> <!-- com.virphy.TestNG.Beforemethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

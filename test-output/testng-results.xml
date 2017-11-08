@@ -1,235 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="1" failed="1" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43731" started-at="2017-10-04T09:11:47Z" finished-at="2017-10-04T09:12:31Z">
+  <suite name="Default suite" duration-ms="282" started-at="2017-11-08T07:50:21Z" finished-at="2017-11-08T07:50:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43731" started-at="2017-10-04T09:11:47Z" finished-at="2017-10-04T09:12:31Z">
-      <class name="SeleniumPrograms.SeleniumTest">
-        <test-method status="PASS" signature="openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="openSeleniumRAVI" duration-ms="28578" started-at="2017-10-04T14:41:47Z" data-provider="hardCodedBrowsers" finished-at="2017-10-04T14:42:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[53.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows 8.1]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[public void SeleniumPrograms.SeleniumTest.openSeleniumRAVI(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.io.IOException,java.net.MalformedURLException]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="282" started-at="2017-11-08T07:50:21Z" finished-at="2017-11-08T07:50:21Z">
+      <class name="com.virphy.TestNG.Beforemethod">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.virphy.TestNG.Beforemethod@31ef45e3]" name="beforeMethod" is-config="true" duration-ms="31" started-at="2017-11-08T13:20:21Z" finished-at="2017-11-08T13:20:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openSeleniumRAVI -->
-        <test-method status="PASS" signature="openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="openSeleniumRAVI" duration-ms="14752" started-at="2017-10-04T14:41:47Z" data-provider="hardCodedBrowsers" finished-at="2017-10-04T14:42:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[safari]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[10.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X 10.11]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[public void SeleniumPrograms.SeleniumTest.openSeleniumRAVI(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.io.IOException,java.net.MalformedURLException]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="login()[pri:0, instance:com.virphy.TestNG.Beforemethod@31ef45e3]" name="login" duration-ms="17" started-at="2017-11-08T13:20:21Z" finished-at="2017-11-08T13:20:21Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [logout] but found [doaction]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [logout] but found [doaction]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.virphy.TestNG.Beforemethod.login(Beforemethod.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openSeleniumRAVI -->
-        <test-method status="PASS" signature="openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="openSeleniumRAVI" duration-ms="29573" started-at="2017-10-04T14:41:47Z" data-provider="hardCodedBrowsers" finished-at="2017-10-04T14:42:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[54.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[OS X 10.10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[public void SeleniumPrograms.SeleniumTest.openSeleniumRAVI(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.io.IOException,java.net.MalformedURLException]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.virphy.TestNG.Beforemethod@31ef45e3]" name="logout" duration-ms="0" started-at="2017-11-08T13:20:21Z" finished-at="2017-11-08T13:20:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openSeleniumRAVI -->
-        <test-method status="PASS" signature="openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="openSeleniumRAVI" duration-ms="39948" started-at="2017-10-04T14:41:47Z" data-provider="hardCodedBrowsers" finished-at="2017-10-04T14:42:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[49.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows 10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[public void SeleniumPrograms.SeleniumTest.openSeleniumRAVI(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.io.IOException,java.net.MalformedURLException]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.virphy.TestNG.Beforemethod@31ef45e3]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-11-08T13:20:21Z" finished-at="2017-11-08T13:20:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openSeleniumRAVI -->
-        <test-method status="PASS" signature="openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="openSeleniumRAVI" duration-ms="43049" started-at="2017-10-04T14:41:47Z" data-provider="hardCodedBrowsers" finished-at="2017-10-04T14:42:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[latest-1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows 7]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[public void SeleniumPrograms.SeleniumTest.openSeleniumRAVI(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.io.IOException,java.net.MalformedURLException]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.virphy.TestNG.Beforemethod@31ef45e3]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-08T13:20:21Z" finished-at="2017-11-08T13:20:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openSeleniumRAVI -->
-        <test-method status="PASS" signature="openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="openSeleniumRAVI" duration-ms="18090" started-at="2017-10-04T14:41:47Z" data-provider="hardCodedBrowsers" finished-at="2017-10-04T14:42:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[internet explorer]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[11.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows 7]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[public void SeleniumPrograms.SeleniumTest.openSeleniumRAVI(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.io.IOException,java.net.MalformedURLException]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.virphy.TestNG.Beforemethod@31ef45e3]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-11-08T13:20:21Z" finished-at="2017-11-08T13:20:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openSeleniumRAVI -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="tearDown" is-config="true" duration-ms="885" started-at="2017-10-04T14:42:02Z" finished-at="2017-10-04T14:42:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=openSeleniumRAVI status=SUCCESS method=SeleniumTest.openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="doaction()[pri:0, instance:com.virphy.TestNG.Beforemethod@31ef45e3]" name="doaction" duration-ms="0" started-at="2017-11-08T13:20:21Z" depends-on-methods="com.virphy.TestNG.Beforemethod.login" finished-at="2017-11-08T13:20:21Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Beforemethod.doaction()[pri:0, instance:com.virphy.TestNG.Beforemethod@31ef45e3] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Beforemethod.doaction()[pri:0, instance:com.virphy.TestNG.Beforemethod@31ef45e3] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1092)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="tearDown" is-config="true" duration-ms="658" started-at="2017-10-04T14:42:05Z" finished-at="2017-10-04T14:42:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=openSeleniumRAVI status=SUCCESS method=SeleniumTest.openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="tearDown" is-config="true" duration-ms="857" started-at="2017-10-04T14:42:16Z" finished-at="2017-10-04T14:42:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=openSeleniumRAVI status=SUCCESS method=SeleniumTest.openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="tearDown" is-config="true" duration-ms="761" started-at="2017-10-04T14:42:17Z" finished-at="2017-10-04T14:42:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=openSeleniumRAVI status=SUCCESS method=SeleniumTest.openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="tearDown" is-config="true" duration-ms="1049" started-at="2017-10-04T14:42:27Z" finished-at="2017-10-04T14:42:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=openSeleniumRAVI status=SUCCESS method=SeleniumTest.openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95]" name="tearDown" is-config="true" duration-ms="630" started-at="2017-10-04T14:42:30Z" finished-at="2017-10-04T14:42:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=openSeleniumRAVI status=SUCCESS method=SeleniumTest.openSeleniumRAVI(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:SeleniumPrograms.SeleniumTest@42dafa95] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumPrograms.SeleniumTest -->
+        </test-method> <!-- doaction -->
+      </class> <!-- com.virphy.TestNG.Beforemethod -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

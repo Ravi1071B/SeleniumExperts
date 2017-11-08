@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="1" name="Suite" parallel="classes">
+
   <test name="BeforeSuite">
     <classes>
       <class name="com.virphy.TestNG.BeforeSuite1"/>
+      <class name="com.virphy.TestNG.RadioBtn"/>
+        <class name="com.virphy.TestNG.AllSeleniumMethods"/>
+      
+      
     </classes>
   </test> <!-- BeforeSuite -->
+  
 </suite> <!-- Suite -->
